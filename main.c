@@ -4,7 +4,11 @@
 #include "newton.h"
 
 /*
+<<<<<<< HEAD
  * argv : A list of char* strings. One a proper call, the first char* is the program name, the second char* is the value for which we want the root, and the third char* is the number of iterations we want for the Newton approximation of the root.
+=======
+ * argc : Number of parameters passed to the program. The value is almost always one, for the program name.
+>>>>>>> c22a86e600b661aae56e7aa4d6d6c140ebf31b78
  * return : Zero if the program worked allright, or the error code : 1 means not enought arguments were given. 2 means that the value to root is invalid. 3 means that the number of iterations is invalid.
  */
 int main(int argc, char** argv) {
