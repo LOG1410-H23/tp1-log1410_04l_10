@@ -4,7 +4,7 @@
 #include "newton.h"
 
 /*
- *
+ * argc : Number of parameters passed to the program. The value is almost always one, for the program name.
  * return : Zero if the program worked allright, or the error code : 1 means not enought arguments were given. 2 means that the value to root is invalid. 3 means that the number of iterations is invalid.
  */
 int main(int argc, char** argv) {
